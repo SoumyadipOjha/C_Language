@@ -60,28 +60,39 @@
 
 /////////////////////////////////prime number///////////////////
 
-#include <stdio.h>
+// #include <stdio.h>
 
-int main()
-{
-    int n = 101, prime = 0;
-    for (int i = 2; i < n; i++)
-    {
-        if (n % i == 0)
+// int main()
+// {
+//     int n = 101, prime = 0;
+//     for (int i = 2; i < n; i++)
+//     {
+//         if (n % i == 0)
 
-        {
-            prime = 1;
-            break;
-        }
-    }
-    if (prime == 1)
-    {
-        printf("not a prime\n");
-    }
-    else
-    {
-        printf("prime\n");
-    }
+//         {
+//             prime = 1;
+//             break;
+//         }
+//     }
+//     if (prime == 1)
+//     {
+//         printf("not a prime\n");
+//     }
+//     else
+//     {
+//         printf("prime\n");
+//     }
 
-    return 0;
-}
+//     return 0;
+// }
+// #include <stdio.h>
+// int main()
+// {
+//     int a;
+//     scanf("%d", &a);
+//     for (int b = 1; b <= 10; b++)
+//     {
+//         printf("%d * %d= %d\n", a, b, a * b);
+//     }
+//     return 0;
+// }

@@ -39,11 +39,11 @@
 // }
 
 #include <stdio.h>
-
+#include <limits.h>
 int main()
 {
     int arr[4] = {1, 2, 3, 4};
-    int i, max = -1;
+    int i, max = INT_MIN;
     for (i = 0; i <= 3; i++)
     {
         if (max < arr[i])

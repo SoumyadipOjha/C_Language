@@ -50,7 +50,7 @@ int main()
     }
     else
     {
-        printf("fail");
+        printf(" oohhhhhhhhhh  Bhai tu legend hai");
     }
 
     return 0;
